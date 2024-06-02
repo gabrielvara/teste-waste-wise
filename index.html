@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>WasteWise</title>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/a1abe69f80.js" crossorigin="anonymous"></script>
+    <header>
+        <img src="./assets/Logo WASTEWISE.svg" alt="Logo da WasteWise">
+        <nav class="navbar">
+            <ul class="nav_list">
+                <li class="nav_list_item"><a href="#section-problema">Problema</a></li>
+                <li class="nav_list_item"><a href="#section-tecnologias">Tecnologias</a></li>
+                <li class="nav_list_item"><a href="#section-objetivos">Objetivos</a></li>
+                <li class="nav_list_item"><a href="#section-publico">Público</a></li>
+                <li class="nav_list_item"><a href="#section-beneficios">Benefícios</a></li>
+                <li class="nav_list_item"><a href="#section-impactos">Impactos</a></li>
+                <li class="nav_list_item"><a href="#section-contato">Contate-nos</a></li>
+            </ul>
+            <i class="material-icons" id="burguer" onclick="openMenu()">menu</i>
+        </nav>
+    </header>
+    <main>
+        <img id="slide_main" src="./assets/Background Principal.svg" alt="Tartagura com plástico amarrado no oceano.">
+        <section class="section_rounded_background section_problema" id="section-problema">
+            <h1 class="titulo titulo_problema">O PROBLEMA <i class="fa-solid fa-triangle-exclamation"></i></h1>
+            <article class="article_rounded_background article_problema">
+                <div>
+                    <p class="paragraph_description description_problema">Cada indivíduo gera anualmente 16 kg de
+                        resíduos
+                        plásticos, que são prejudiciais à vida marinha.
+                        Aproximadamente um terço de todo o lixo no Brasil acaba nos oceanos. A falta de conscientização
+                        e o
+                        desinteresse da sociedade, juntamente com desafios na coleta e separação de resíduos, agravam a
+                        situação. Como resultado, 80% da poluição marítima é proveniente de lixo do continente, causando
+                        danos severos aos ecossistemas marinhos.</p>
+                </div>
+                <img id="imagemProblema" src="./assets/Problema1.svg" alt="Diversos entulhos em uma praia.">
+            </article>
+            <p class="bibliography_fonts">Veja mais em: <a class="fonts_description"
+                    href="https://www.pactoglobal.org.br/noticia/dados-ineditos-do-blue-keepers-impactam-mais-de-130-milhoes-de-pessoas/">"Organização
+                    Pacto Global - Blue Keepers"</a> ou <a class="fonts_description"
+                    href="https://revistapesquisa.fapesp.br/en/brazil-dumps-3-44-million-tons-of-plastic-waste-into-the-sea-every-year/">"Revista
+                    Pesquisa Fapesp"</a>.</p>
+        </section>
+        <section class="section_none_background section_tecnologias" id="section-tecnologias">
+            <h2 class="titulo titulo_tecnologias">Tecnologias <i class="fa-solid fa-microchip"></i></h2>
+            <article class="article_none_background article_lixeira">
+                <div>
+                    <h3 class="subtitulo subtitulo_lixeira">Lixeira inteligente</h3>
+                    <p class="paragraph_description description_tecnologias description_lixeira">Equiparemos lixeiras
+                        com balanças inteligentes e
+                        sensores de capacidade que monitoram, em tempo real, a quantidade de resíduos depositados e o
+                        nível de ocupação. Essa tecnologia permite um controle preciso do lixo gerado por localidades
+                        específicas.</p>
+                </div>
+                <img src="./assets/Lixeira inteligente.svg" alt="Imagem Ilustrativa de lixeira inteligente.">
+            </article>
+            <article class="article_none_background article_mapeamento">
+                <img src="./assets/Mapeamento.svg"
+                    alt="Imagem Ilustrativa de possível mapeamento de residuos com WasteWise">
+                <div>
+                    <h3 class="subtitulo subtitulo_mapeamento">Análise e Mapeamento</h3>
+                    <p class="paragraph_description description_tecnologias description_mapeamento">Os dados coletados
+                        pelas lixeiras inteligentes
+                        são analisados e mapeados. A análise segmenta os resíduos por localidade, gerando gráficos e
+                        relatórios, identificando áreas com maior produção de lixo. Com essas informações planejaremos
+                        campanhas ninchadas com dados específicos.</p>
+                </div>
+            </article>
+        </section>
+        <img id="slide_mid" src="./assets/Background Segundo.svg" alt="Imagem de oceano visto de uma praia">
+        <section class="section_rounded_background section_objetivos" id="section-objetivos">
+            <h1 class="titulo titulo_objetivos">OBJETIVOS <i class="fa-solid fa-bullseye"></i></h1>
+            <article class="article_rounded_background article_objetivo">
+                <div>
+                    <p class="paragraph_description description_objetivos">WasteWise visa reduzir a poluição marinha,
+                        coletando dados para identificar e priorizar áreas com alta produção de lixo. Ao engajar a
+                        população e promover a conscientização, acreditamos que podemos frear a produção desenfreada de
+                        resíduos, atingindo a raiz do problema causado por ações humanas</p>
+                </div>
+                <img src="./assets/FotoObjetivo.svg" alt="Conscientização ambiental">
+            </article>
+        </section>
+        <section class="section_none_background section_publico" id="section-publico">
+            <h2 class="titulo titulo_publico">PÚBLICO <i class="fa-solid fa-users"></i></h2>
+            <article class="article_none_background article_publico">
+                <img id="imagemPublico" src="./assets/Público1.svg" alt="Imagem do centro de uma cidade grande, com muitas pessoas">
+                <div>
+                    <h3 class="subtitulo subtitulo_mapeamento">Qual é nosso Público?</h3>
+                    <p class="paragraph_description description_publico">Nosso público-alvo é o cidadão comum.
+                        Acreditamos que, ao fornecer acesso fácil às informações que coletamos sobre como suas ações
+                        impactam o ambiente marinho e nosso futuro, podemos inspirar mudanças positivas. Queremos
+                        atingir o máximo de pessoas possível, incentivando práticas mais sustentáveis e conscientes</p>
+                </div>
+            </article>
+        </section>
+        <img id="slide_mid" src="./assets/Background Terceiro.svg" alt="Imagem de uma praia vista de perto da onda">
+        <section class="section_rounded_background section_beneficios" id="section-beneficios">
+            <h1 class="titulo titulo_problema">BENEFÍCIOS <i class="fa-solid fa-chart-simple"></i></h1>
+            <article class="article_rounded_background article_beneficios">
+                <div>
+                    <p class="paragraph_description description_beneficios">A WasteWise trará benefícios ambientais e
+                        sociais ao conscientizar a população com dados impactantes sobre produção de resíduos. Ao
+                        reduzir a poluição
+                        marinha e promover práticas sustentáveis, melhoraremos a saúde dos oceanos e da sociedade,
+                        criando um futuro mais saudável para todos.</p>
+                </div>
+                <img src="./assets/Imagem Objetivos.svg" alt="">
+            </article>
+        </section>
+        <section class="section_none_background" id="section-impactos">
+            <h2 class="titulo titulo_impactos">IMPACTOS <i class="fa-solid fa-explosion"></i></h2>
+            <article class="article_none_background article_impactos">
+                <img src="./assets/Imagem Publico.svg" alt="">
+                <div>
+                    <p class="paragraph_description description_impactos">A WasteWise impactará positivamente a
+                        sociedade, tirando-nos da zona de conforto ao mostrar, de forma objetiva e comprovada, o que
+                        devemos fazer para melhorar nosso futuro. Esse esforço terá um impacto direto na redução da
+                        poluição marinha, promovendo um ambiente mais limpo e sustentável</p>
+                </div>
+            </article>
+        </section>
+        <div class="div_contato">
+            <section id="section-contato" class="section_rounded_background section_contato">
+                <h1 class="titulo titulo_form">Entre em contato conosco <i class="fa-solid fa-address-card"></i></h1>
+                <form id="contatoForm" action="https://formsubmit.co/contatowastewise@gmail.com" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" autocomplete="name" required>
+                    <span id="nomeError" class="error">O nome deve ter mais de 3 caracteres.</span>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" autocomplete="email" required>
+                    <span id="emailError" class="error">O e-mail deve ser válido (conter @ e .com).</span>
+                    <br>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <span id="mensagemError" class="error">A mensagem deve ter mais de 3 palavras.</span>
+                    <br>
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit">Enviar</button>
+                </form>
+                <p class="mensagens_form"></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p class="paragrafo_footer">Site desenvolvido pela equipe WasteWise da sala ESPV1 para desenvolver e esclarecer
+            como será
+            realizado o projeto da GS - 2024 para as turmas de Engenharia de Software da FIAP</p>
+        <nav class="navbar">
+            <ul class="footer_nav_list">
+                <li class="nav_list_item"><a href="#section-problema">Problema</a></li>
+                <li class="nav_list_item"><a href="#section-tecnologias">Tecnologias</a></li>
+                <li class="nav_list_item"><a href="#section-objetivos">Objetivos</a></li>
+                <li class="nav_list_item"><a href="#section-publico">Público</a></li>
+                <li class="nav_list_item"><a href="#section-beneficios">Benefícios</a></li>
+                <li class="nav_list_item"><a href="#section-impactos">Impactos</a></li>
+                <li class="nav_list_item"><a href="#section-contato">Contate-nos</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="https://github.com/peguidotte/WasteWise.git" aria-label="Repositório GitHub" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="" aria-label="Design do Figma" target="_blank"><i class="fa-brands fa-figma"></i></a>
+        </div>
+        <p class="paragrafo_footer">© WasteWise - Todos os direitos reservados - Segurança e Privacidade</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
