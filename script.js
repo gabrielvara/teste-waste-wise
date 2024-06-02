@@ -14,7 +14,7 @@ window.addEventListener('resize', function() {
 document.addEventListener('DOMContentLoaded', (event) => {
     var imgElement = document.getElementById('slide_main');
     if (window.matchMedia('(max-width: 600px)').matches) {
-        imgElement.src = "./assets/FotoHeader- Mobile.svg";
+        imgElement.src = "./assets/FotoHeader-Mobile.svg";
     } else {
         imgElement.src = "./assets/Background Principal.svg";
     }
